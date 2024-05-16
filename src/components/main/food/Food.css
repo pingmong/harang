@@ -1,0 +1,72 @@
+/* Food.css */
+.content-section {
+    margin: 16px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.content-header p {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.food-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.expand-icon {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #306b9b;
+    cursor: pointer;
+}
+
+.card {
+    background-color: white;
+    border: 1.5px solid #b3b3b3;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.food-card {
+    border: 1.5px solid #b3b3b3;
+    border-radius: 3px;
+    padding: 16px;
+    background-color: white;
+    width: 48%;
+}
+
+.card-header {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+    background-color: #306b9b;
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+
+.meal-time {
+    font-size: 13px;
+    font-weight: 700;
+    color: #306b9b;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.meal-details {
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    margin-top: 8px;
+}

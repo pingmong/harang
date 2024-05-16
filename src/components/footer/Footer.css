@@ -1,0 +1,30 @@
+/* Footer.css */
+.footer-section {
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ababab;
+    font-size: 10px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.footer-link {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 8px;
+}
+
+.footer-divider {
+    color: white;
+}
+
+.campus-info {
+    text-align: left;
+}

@@ -1,0 +1,30 @@
+.top-bar {
+    width: 400px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    position: relative;
+}
+
+.logo {
+    width: 133px;
+    height: 34px;
+}
+
+.login-text {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 180px;
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    margin-left: 16px;
+    position: absolute;
+    right: 16px;
+}
