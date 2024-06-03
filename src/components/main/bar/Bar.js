@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../../assets/images/logo.jpg';
+import menu from '../../../assets/icon/menu.jpg';
 
 import './Bar.css';
 
@@ -8,7 +9,9 @@ const Bar = () => {
         <div className="top-bar">
             <img src={logo} alt="Logo" className="logo" />
             <button className="login-button">로그인</button>
-            <div className="menu-icon"></div>
+            <button className="menu-button">
+                <img src={menu} alt="Menu" className="menu-icon" />
+            </button>
         </div>
     );
 };

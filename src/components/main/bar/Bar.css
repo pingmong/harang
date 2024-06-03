@@ -4,8 +4,8 @@
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
-    /*padding: 0 16px;*/
     position: relative;
+    padding: 0;
 }
 
 .logo {
@@ -22,15 +22,28 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-left: 155px;
     background: none;
     border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+
+.menu-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    margin-left: auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .menu-icon {
     width: 24px;
-    height: 24px;
-    background-color: white;
-    margin-left: 16px;
-    position: absolute;
-    right: 16px;
+    height: 20px;
+    margin-right: 14px;
 }
