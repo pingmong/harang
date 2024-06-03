@@ -1,23 +1,29 @@
 .top-bar {
-    width: 400px;
-    height: 50px;
+    width: 100% ;
+    height: 49px;
     background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     align-items: center;
-    padding: 0 16px;
+    /*padding: 0 16px;*/
     position: relative;
 }
 
 .logo {
     width: 133px;
     height: 34px;
+    flex-shrink: 0;
+    margin-left: 17px;
 }
 
-.login-text {
+.login-button {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Pretendard;
     font-size: 12px;
+    font-style: normal;
     font-weight: 600;
-    color: rgba(255, 255, 255, 0.5);
-    margin-left: 180px;
+    line-height: normal;
+    background: none;
+    border: none;
 }
 
 .menu-icon {

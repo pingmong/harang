@@ -13,11 +13,11 @@ const App = () => {
         <div className="frame">
             <Header />
             <Bar />
-            <Login />
-            <Food />
-            <Schedule />
-            <Notice />
-            <Footer />
+            {/*<Login />*/}
+            {/*<Food />*/}
+            {/*<Schedule />*/}
+            {/*<Notice />*/}
+            {/*<Footer />*/}
         </div>
     );
 };
