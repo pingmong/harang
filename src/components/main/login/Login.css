@@ -1,75 +1,125 @@
-/* Login.css */
+
 .login-section {
     width: 344px;
     height: 215px;
     flex-shrink: 0;
-    /*padding: 16px;*/
-    text-align: center;
-    background-color: #214d71;
-    margin: 16px;
     border-radius: 5px;
+    background: #214D71;
+    margin-top: 28px;
+    margin-left: 23px;
+}
+
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+
+.login-text {
+    flex-grow: 1;
 }
 
 .login-prompt {
     color: #FFF;
+    /*text-align: right;*/
+    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
-    line-height: normal;
-    font-size: 15px;
     font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    padding: 28px 0 0 41px;
 }
 
 .login-options {
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
-    margin-top: 8px;
+    margin-top: 1px;
+    padding-left: 118px;
 }
 
 .login-option {
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
     font-size: 9px;
-    color: white;
+    font-style: normal;
     font-weight: 300;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .divider {
-    margin: 0 8px;
+    margin: 0 2px;
     color: white;
     font-size: 10px;
     font-weight: 300;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+.account {
+    padding: 28px 34px 0 0;
 }
 
-.explore-section {
-    padding: 16px;
-    text-align: center;
-    background-color: #fff;
-    margin: 16px;
-    border-radius: 8px;
+.account-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    width: 35px;
+    height: 36px;
+    flex-shrink: 0;
 }
+
+.account-circle {
+    width: 35px;
+    height: 36px;
+    flex-shrink: 0;
+}
+
 
 .explore-title {
+    color: #FFF;
+    font-family: Pretendard, sans-serif;
     font-size: 10px;
+    font-style: normal;
     font-weight: 700;
-    color: white;
-    margin-bottom: 8px;
+    line-height: normal;
+    margin: 0;
+    padding: 50px 0 0 34px;
 }
+
+/*.explore-section {*/
+/*    width: 276px;*/
+/*    height: 51px;*/
+/*    flex-shrink: 0;*/
+/*    border-radius: 5px;*/
+/*    background: #FFF;*/
+/*    margin: 0;*/
+
+/*}*/
 
 .explore-action {
     width: 276px;
     height: 51px;
     flex-shrink: 0;
-    font-size: 15px;
-    font-weight: 700;
-    color: #306b9b;
-    background-color: white;
-    border: none;
-
-    padding: 8px 16px;
     border-radius: 5px;
+    background: #FFF;
+    color: #306B9B;
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.75px;
+    border: none;
     cursor: pointer;
+    padding: 0;
+    margin-left: 34px;
+    margin-top: 3px;
 }
