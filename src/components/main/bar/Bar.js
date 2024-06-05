@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../../../assets/images/logo.jpg';
-import menu from '../../../assets/icon/menu.jpg';
+import logo from '../../../assets/images/logo.svg';
+import menu from '../../../assets/icon/menu.svg';
 
 import './Bar.css';
 
