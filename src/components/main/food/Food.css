@@ -1,18 +1,31 @@
 /* Food.css */
 .content-section {
-    margin: 16px;
+    margin: 29px 23px 0 23px;
+
 }
 
 .content-header {
     display: flex;
     justify-content: space-between;
+    line-height: 0;
+    margin-bottom: 7px;
+}
+
+.food-container {
+    display: flex;
+    /*justify-content: center;*/
     align-items: center;
-    margin-bottom: 8px;
+    gap: 5px; /* 아이콘과 텍스트 사이의 간격 */
 }
 
 .content-header p {
-    font-size: 13px;
-    font-weight: 700;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
 }
 
 .food-cards {
@@ -22,10 +35,17 @@
 }
 
 .expand-icon {
-    font-size: 24px;
     background: none;
     border: none;
-    color: black;
+    padding: 0;
+}
+
+.add-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    /*background: none;*/
+    /*border: none;*/
     cursor: pointer;
 }
 

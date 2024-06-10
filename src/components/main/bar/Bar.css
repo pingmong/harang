@@ -40,6 +40,8 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    display: flex;
+    align-items: center;
 }
 
 .menu-icon {

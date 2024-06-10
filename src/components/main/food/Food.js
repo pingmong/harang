@@ -1,12 +1,19 @@
 import React from 'react';
 import './Food.css';
+import food from '../../../assets/icon/restaurant.svg'
+import add from '../../../assets/icon/add.svg'
 
 const Food = () => {
     return (
         <div className="content-section">
             <div className="content-header">
-                <p>오늘의 학식</p>
-                <button className="expand-icon">+</button>
+                <div className="food-container">
+                    <img src={food} alt="Food" className="food-icon"/>
+                    <p>오늘의 학식</p>
+                </div>
+                <button className="expand-icon">
+                    <img src={add} alt="Add" className="add-icon"/>
+                </button>
             </div>
             <div className="food-cards">
                 <div className="card food-card">

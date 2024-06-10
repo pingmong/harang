@@ -1,26 +1,21 @@
 /* Notice.css */
 .content-section {
-    margin: 16px;
+    /*margin: 16px;*/
 }
 
 .content-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 8px;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*margin-bottom: 8px;*/
 }
 
 .content-header p {
-    font-size: 13px;
-    font-weight: 700;
+    /*font-size: 13px;*/
+    /*font-weight: 700;*/
 }
 
 .expand-icon {
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: #306b9b;
-    cursor: pointer;
 }
 
 .card {
