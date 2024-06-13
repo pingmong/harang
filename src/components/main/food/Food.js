@@ -1,7 +1,7 @@
 import React from 'react';
 import './Food.css';
 import food from '../../../assets/icon/restaurant.svg'
-import add from '../../../assets/icon/add.svg'
+import add from '../../../assets/icon/add_black.svg'
 import right from "../../../assets/icon/right_arrow.svg";
 import left from "../../../assets/icon/left_arrow.svg"
 

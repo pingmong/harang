@@ -1,54 +1,68 @@
-/* Notice.css */
 .content-section {
-    /*margin: 16px;*/
 }
 
-.content-header {
-    /*display: flex;*/
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
-    /*margin-bottom: 8px;*/
+.notice-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    gap: 5px;
 }
 
-.content-header p {
-    /*font-size: 13px;*/
-    /*font-weight: 700;*/
+.notice-header p {
+    color: #000;
+    /*font-family: Pretendard;*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
 }
 
-.expand-icon {
-}
 
-.card {
-    background-color: white;
-    border: 1.5px solid #b3b3b3;
-    border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 16px;
-}
-
-.notice-card {
-    border: 1.5px solid #b3b3b3;
+.card-notice-card {
+    width: 344px;
+    height: 239px;
+    flex-shrink: 0;
     border-radius: 3px;
-    padding: 16px;
-    background-color: white;
-    /*width: 100%;*/
+    border: 1.5px solid #B3B3B3;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .card-header {
-    font-size: 13px;
-    font-weight: 700;
-    color: white;
-    background-color: #306b9b;
-    padding: 8px;
-    border-radius: 5px 5px 0 0;
-    text-align: center;
+
 }
 
-.notice-title {
-    font-size: 15px;
-    font-weight: 700;
-    color: black;
-    margin-top: 8px;
+.header-title {
+
+}
+
+.header-button {
+
+}
+
+.notice-add-button {
+    line-height: normal;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 140px;
+}
+
+.white-add-icon {
+
+}
+
+.header-button.notice {
+    margin-left: 25px;
+}
+
+.line-images {
+    margin: 0 12px;
 }
 
 .notice-details {

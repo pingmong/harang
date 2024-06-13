@@ -1,6 +1,6 @@
 /* Food.css */
 .content-section {
-    margin: 29px 23px 0 23px;
+    margin: 28px 23px 0 23px;
 }
 
 .content-header {
@@ -19,7 +19,6 @@
 
 .content-header p {
     color: #000;
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -50,15 +49,16 @@
 .card-food-card {
     width: 167px;
     height: 179px;
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
     border-radius: 3px;
     border: 1.5px solid #B3B3B3;
     box-sizing: border-box;
+    position: relative; /* 자식 요소들이 절대 위치를 가질 수 있게 함 */
 }
 
 .food-card-header-left,
 .food-card-header-right {
-    width: 100%;
+    width: 167px;
     height: 42px;
     border-radius: 3px 3px 0 0;
     background: #306B9B;
@@ -70,6 +70,10 @@
     display: flex;
     align-items: center;
     gap: 23px;
+    /*position: absolute; !* 부모 요소를 기준으로 절대 위치 *!*/
+    position: relative;
+    top: -1.5px; /* 상단 테두리를 덮도록 위치 조정 */
+    left: -1.5px;
 
 }
 
@@ -88,7 +92,6 @@
     outline: none;
     display: flex;
     align-items: center;
-    /*padding-top: 13px;*/
 }
 
 .meal-box {
