@@ -13,8 +13,8 @@ const App = () => {
         <div className="frame">
             <Header />
             <Bar />
-            {/*<Login />*/}
-            {/*<Food />*/}
+            <Login />
+            <Food />
             {/*<Schedule />*/}
             {/*<Notice />*/}
             {/*<Footer />*/}
