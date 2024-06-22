@@ -69,7 +69,7 @@
     font-weight: 700;
     display: flex;
     align-items: center;
-    gap: 23px;
+    gap: 29px;
     /*position: absolute; !* 부모 요소를 기준으로 절대 위치 *!*/
     position: relative;
     top: -1.5px; /* 상단 테두리를 덮도록 위치 조정 */

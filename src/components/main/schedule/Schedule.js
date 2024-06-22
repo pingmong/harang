@@ -21,9 +21,10 @@ const Schedule = () => {
                         <img src={whiteAdd} alt="White Add" className="white-add-icon" />
                     </button>
                 </div>
-                <p className="event-title">05.05 어린이날</p>
-                <p className="event-details">05.06 어린이날 대체공휴일</p>
-                <p className="event-details">05.14 제1학기 수업일수 2/3선</p>
+
+                {/*<p className="event-title">05.05 어린이날</p>*/}
+                {/*<p className="event-details">05.06 어린이날 대체공휴일</p>*/}
+                {/*<p className="event-details">05.14 제1학기 수업일수 2/3선</p>*/}
             </div>
         </div>
     );

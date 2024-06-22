@@ -23,7 +23,7 @@ const Food = () => {
                         <button className="arrow-button">
                             <img src={left} alt="Left" className="arrow-icon"/>
                         </button>
-                        오늘의 학식
+                        학생 식당
                     </div>
                     <div className="meal-box">
                         <p className="meal-time">중식</p>
